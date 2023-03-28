@@ -1,2 +1,2 @@
 # rsschool-cv
-https://OgNadine.github.io/rsschool-cv/cv
+https://ognadine.github.io/rsschool-cv/cv
