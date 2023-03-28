@@ -5,7 +5,6 @@
 ## Contacts
 * ### **Location**: Minsk, Belarus
 * ### **Phone**: +375 29 986-61-21
-* ### **Email**: ognadine5@gmail.com
 * ### **GitHub**: OgNadine
 
 ## About Me 
@@ -31,7 +30,7 @@ alert( result );
 ```
 ## Education
 * ### **University**: Belarusian State University of Informatics and Radioelectronics, specialty engineering and psychological support of information technologies
-* ### Course HTML, CSS, JSbasic
+* ### Course HTML, CSS/SASS, JSbasic
 * ### JavaScript/Front-end 2023 RS-school
 
 ## Languages
