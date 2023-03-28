@@ -5,6 +5,7 @@
 ## Contacts
 * ### **Location**: Minsk, Belarus
 * ### **Phone**: +375 29 986-61-21
+* ### **Email**: ognadine5@gmail.com
 * ### **GitHub**: OgNadine
 
 ## About Me 
@@ -17,7 +18,7 @@
 * ### JavaScript (Basic)
 * ### Java (Basic)
 * ### C++ (Basic)
-* ### Git
+* ### Git/GitHub
 
 ## Code Example
 ```
