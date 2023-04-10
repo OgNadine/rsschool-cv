@@ -1,0 +1,443 @@
+  html{
+    box-sizing: border-box;
+  }
+  *, *::before, *::after{
+    box-sizing: border-box;
+  }
+
+  body{
+    font-family: 'Georgia';
+    font-style: normal;
+    font-size: 16px;
+    line-height: 1.2;
+    font-weight: normal;
+    color: #4C4C4C;
+  }
+
+  /*Header styles start*/
+
+   .wrapper{
+    max-width: 1200px;
+    margin: 0 auto; 
+   }
+
+   .header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+   }
+
+   .header_wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    justify-content: space-between;
+    padding-top: 30px;
+   }
+
+   .header_list{
+    display: flex;
+    flex-wrap: wrap;
+   }
+
+   .header_item{
+    margin-right: 35px;
+   }
+
+   .header_item:last-child{
+    margin-right: 0;
+   }
+
+   .header_link{
+    font-family: 'Arial';
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 160%;
+    text-decoration: none;
+    color: #CDCDCD; 
+   }
+
+   .header_link:hover, .header_link:focus, .header_link:active{
+    opacity: .75;
+   }
+
+   .header_logo-link{
+    text-decoration: none;
+   }
+
+   .logo_title{
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 110%;
+    color: #F1CDB3;
+   }
+
+   .logo_sybtitle{
+    font-family: 'Arial';
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 15px;
+    color: #FFFFFF;
+   }
+   /*Header styles end*/
+
+   /*Intro styles start*/
+
+   .intro{
+    min-height: 100vh;
+    background: url(noise_lines_transparent@2X.png), radial-gradient(100% 215.42% at 0% 0%, #5B483A 0%, #262425 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */, #211F20;
+    background-size: cover;
+    padding-top: 180px;
+}
+
+.intro_grid{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 42px;
+}
+
+.intro_title{
+    font-family: 'Georgia';
+    font-style: normal;
+    padding-top: 163px;
+    max-width: 310px;
+    font-weight: 400;
+    font-size: 44px;
+    line-height: 130%;
+    color: #FFFFFF;
+    margin-bottom: 42px;
+}
+
+.intro_text{
+    max-width: 460px;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 160%;
+    color: #CDCDCD;
+    margin-bottom: 42px;
+}
+
+.intro_button{
+    font-family: 'Georgia';
+    background: #F1CDB3;
+    padding: 15px 45px;
+    max-width: 460px;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 130%;
+    color: #292929;
+    border-radius: 100px;
+    border:0;
+}
+
+.intro_button:hover, .intro_button:focus, .intro_button:active{
+    background: #d0a687;
+}
+
+   /*Intro styles end*/
+
+   /*Intro2 start*/
+
+   .intro2{
+    margin-top: 80px;
+    margin-bottom: 100px;
+   }
+
+   .wrapper-full{
+    max-width: 850px;
+    margin: 0 auto;  
+    margin-bottom: 100px;
+   }
+
+   .about-pets{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap:120px;
+    align-items: center;
+
+   }
+
+   .about-pets_title{
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 130%;
+    max-width: 370px;
+    margin-bottom: 25px;
+   }
+
+   .about-pets_text1,.about-pets_text2{
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 160%;
+    max-width: 430px;
+    margin-bottom: 25px;
+   }
+
+   /*Intro2 end*/
+
+   /*Pets_card start*/
+
+   
+   .pets_card{
+    background: #F6F6F6;
+   }
+
+   .wrapper_card{
+    max-width: 990px;
+    margin: 0 auto; 
+    padding-top: 60px;
+    padding-bottom: 100px;
+   }
+   
+   .card{
+    background: #FAFAFA;
+    border-radius: 9px;
+    
+   }
+
+   .pets_title{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 60px;
+
+   }
+
+   .our_freinds{
+    max-width: 400px;
+    margin-top: 80px;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 130%;
+    text-align: center;
+   }
+
+   .pets_card_grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap:90px;
+    align-items: center;
+    margin-bottom: 100px;
+   }
+
+   .pets_name{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 45px;
+   }
+   .pets_button{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+   }
+
+   .learn_more{
+    background-color: transparent;
+    border-color:#F1CDB3;
+    border-style: solid;
+    border-radius: 100px;
+    font-family: 'Georgia';
+    color: #292929;
+    padding: 15px 45px;
+    max-width: 460px;
+   }
+    
+   .learn_more:hover, .learn_more:focus, .learn_more:active{
+    background: #F1CDB3;
+  }
+
+   .about_button{
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+   }
+
+   .about{
+    font-family: 'Georgia';
+    background: #F1CDB3;
+    padding: 15px 45px;
+    max-width: 261px;
+    height: 52px;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 130%;
+    color: #292929;
+    border-radius: 100px;
+    border:0;
+   }
+   
+   .about:hover, .about:focus, .about:active{
+    background: #f5b587;
+  }
+
+  /* Help start */
+
+  .help_title{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 60px;
+   }
+
+   .help_text{
+    max-width: 308px;
+    margin-top: 80px;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 130%;
+    text-align: center;
+   }
+   .wrapper_help{
+    max-width: 1200px;
+    margin: 0 auto; 
+    margin-top: 60px;
+    margin-bottom: 100px;
+   }
+
+   .help_flex{
+    display: flex;
+    gap: 58px 120px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-right: 87px;
+    margin-left: 87px;
+   }
+
+   .icon_grid{
+    display: grid;
+    justify-items: center;
+    align-items: center;
+   }
+
+   /* In addition start */
+
+   .in_addition{
+    background: #F6F6F6;
+   }
+   .wrapper-addition{
+    max-width: 915px;
+    margin: 0 auto;
+    padding-bottom: 100px;
+    padding-top: 80px;
+   }
+   .addition_pets{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap:30px;
+    align-items: center;
+   }
+   .addition_pets_title{
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 130%;
+    margin-bottom: 20px;
+   }
+
+   .addition_pets_text1{
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 110%;
+    margin-bottom: 20px;
+   }
+
+   .credit_card{
+    background: #F1CDB3;
+    border-radius: 9px;
+    max-width: 349px;
+   }
+
+   .credit_card_flex{
+    display: flex;
+    padding: 10px 15px;
+    gap: 15px;
+   }
+   
+   .nomer_card{
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 115%;
+    color: #545454;
+   }
+
+   .addition_pets_text2{
+    font-family: 'Arial';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    margin-top: 20px;
+    color: #B2B2B2;
+   }
+    /* In addition end */
+
+     /* Footer start */
+     .footer{
+      background: url(noise_lines_transparent@2X.png), radial-gradient(110.67% 538.64% at 5.73% 50%, #513D2F 0%, #1A1A1C 100%), #211F20;
+      bottom: 0;
+      right: 0;
+      width: 100%;
+     }
+
+     .footer_grid{
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      column-gap:160px;
+      align-items: center;
+      padding-top: 40px;
+     }
+
+     .for_questions_title, .for_visit_title{
+      font-size: 35px;
+      line-height: 130%;
+      color: #FFFFFF;
+     }
+
+     .email_flex{
+      display: flex;
+      gap: 20px;
+      padding-top: 45px;
+      align-items: center;
+     }
+
+     .phone_flex{
+      display: flex;
+      gap: 20px;
+      padding-top: 40px;
+      padding-bottom: 60px;
+      align-items: center;
+     }
+
+     .adress1_flex{
+      display: flex;
+      gap: 20px;
+      padding-top: 34px;
+      align-items: center;
+     }
+
+     .adress2_flex{
+      display: flex;
+      gap: 20px;
+      padding-top: 32px;
+      padding-bottom: 60px;
+      align-items: center;
+     }
+
+     .email_adress, .nomer_phone,.adress1, .adress2{
+      font-size: 20px;
+      line-height: 115%;
+      color: #F1CDB3;
+     }
+
